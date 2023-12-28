@@ -3,7 +3,8 @@ import React, { useEffect } from 'react'
 import Image from 'next/image'
 
 const Nav = () => {
-  const userName = localStorage.getItem('user') ? localStorage.getItem('user') : ''
+  // const userName = localStorage.getItem('user') ? localStorage.getItem('user') : ''
+  const userName = 'Test User'
   useEffect(() => {
     const init = async () => {
       const { Collapse, Dropdown, initTE } = await import('tw-elements')
