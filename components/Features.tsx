@@ -8,7 +8,7 @@ const Features = () => {
 
         <div className='grid lg:grid-cols-4 lg:gap-x-12 md:grid-cols-2 md:gap-x-12'>
           <div className='mb-12 lg:mb-0'>
-            <div className='block h-full rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700'>
+            <div className='block h-full rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] darks:bg-neutral-700'>
               <div className='flex justify-center'>
                 <div className='-mt-8 inline-block rounded-full bg-primary-100 p-4 text-primary shadow-md'>
                   <svg
@@ -38,7 +38,7 @@ const Features = () => {
           </div>
 
           <div className='mb-12 lg:mb-0'>
-            <div className='block h-full rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700'>
+            <div className='block h-full rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] darks:bg-neutral-700'>
               <div className='flex justify-center'>
                 <div className='-mt-8 inline-block rounded-full bg-primary-100 p-4 text-primary shadow-md'>
                   <svg
@@ -68,7 +68,7 @@ const Features = () => {
           </div>
 
           <div className=''>
-            <div className='block h-full rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700'>
+            <div className='block h-full rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] darks:bg-neutral-700'>
               <div className='flex justify-center'>
                 <div className='-mt-8 inline-block rounded-full bg-primary-100 p-4 text-primary shadow-md'>
                   <svg
@@ -95,7 +95,7 @@ const Features = () => {
           </div>
 
           <div className=''>
-            <div className='block h-full rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700'>
+            <div className='block h-full rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] darks:bg-neutral-700'>
               <div className='flex justify-center'>
                 <div className='-mt-8 inline-block rounded-full bg-primary-100 p-4 text-primary shadow-md'>
                   <svg

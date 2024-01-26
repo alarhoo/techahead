@@ -14,11 +14,11 @@ const Nav = () => {
     init()
   }, [])
   return (
-    <nav className='flex-no-wrap relative flex w-full items-center justify-between bg-[#FBFBFB] py-2 shadow-md shadow-black/5 dark:bg-neutral-600 dark:shadow-black/10 lg:flex-wrap lg:justify-start lg:py-4'>
+    <nav className='flex-no-wrap relative flex w-full items-center justify-between bg-[#FBFBFB] py-2 shadow-md shadow-black/5 darks:bg-neutral-600 darks:shadow-black/10 lg:flex-wrap lg:justify-start lg:py-4'>
       <div className='container mx-auto'>
         <div className='flex w-full flex-wrap items-center justify-between px-3'>
           <button
-            className='block border-0 bg-transparent px-2 text-neutral-500 hover:no-underline hover:shadow-none focus:no-underline focus:shadow-none focus:outline-none focus:ring-0 dark:text-neutral-200 lg:hidden'
+            className='block border-0 bg-transparent px-2 text-neutral-500 hover:no-underline hover:shadow-none focus:no-underline focus:shadow-none focus:outline-none focus:ring-0 darks:text-neutral-200 lg:hidden'
             type='button'
             data-te-collapse-init
             data-te-target='#navbarSupportedContent1'
@@ -43,8 +43,8 @@ const Nav = () => {
             data-te-collapse-item
           >
             <a
-              className='mb-4 ml-2 mr-5 mt-3 flex items-center text-neutral-900 hover:text-neutral-900 focus:text-neutral-900 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:text-neutral-400 lg:mb-0 lg:mt-0'
-              href='#'
+              className='mb-4 ml-2 mr-5 mt-3 flex items-center text-neutral-900 hover:text-neutral-900 focus:text-neutral-900 darks:text-neutral-200 darks:hover:text-neutral-400 darks:focus:text-neutral-400 lg:mb-0 lg:mt-0'
+              href='/'
               title='Test'
             >
               <Image
@@ -57,8 +57,8 @@ const Nav = () => {
             <ul className='list-style-none mr-auto flex flex-col pl-0 lg:flex-row' data-te-navbar-nav-ref>
               <li className='mb-4 lg:mb-0 lg:pr-2' data-te-nav-item-ref>
                 <a
-                  className='text-neutral-500 transition duration-200 hover:text-neutral-700 hover:ease-in-out focus:text-neutral-700 disabled:text-black/30 motion-reduce:transition-none dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-zinc-400'
-                  href='#'
+                  className='text-neutral-500 transition duration-200 hover:text-neutral-700 hover:ease-in-out focus:text-neutral-700 disabled:text-black/30 motion-reduce:transition-none darks:text-neutral-200 darks:hover:text-neutral-300 darks:focus:text-neutral-300 lg:px-2 [&.active]:text-black/90 darks:[&.active]:text-zinc-400'
+                  href='/dashboard'
                   data-te-nav-link-ref
                 >
                   Dashboard
@@ -66,7 +66,7 @@ const Nav = () => {
               </li>
               <li className='mb-4 lg:mb-0 lg:pr-2' data-te-nav-item-ref>
                 <a
-                  className='text-neutral-500 transition duration-200 hover:text-neutral-700 hover:ease-in-out focus:text-neutral-700 disabled:text-black/30 motion-reduce:transition-none dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400'
+                  className='text-neutral-500 transition duration-200 hover:text-neutral-700 hover:ease-in-out focus:text-neutral-700 disabled:text-black/30 motion-reduce:transition-none darks:text-neutral-200 darks:hover:text-neutral-300 darks:focus:text-neutral-300 lg:px-2 [&.active]:text-black/90 darks:[&.active]:text-neutral-400'
                   href='#'
                   data-te-nav-link-ref
                 >
@@ -75,7 +75,7 @@ const Nav = () => {
               </li>
               <li className='mb-4 lg:mb-0 lg:pr-2' data-te-nav-item-ref>
                 <a
-                  className='text-neutral-500 transition duration-200 hover:text-neutral-700 hover:ease-in-out focus:text-neutral-700 disabled:text-black/30 motion-reduce:transition-none dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400'
+                  className='text-neutral-500 transition duration-200 hover:text-neutral-700 hover:ease-in-out focus:text-neutral-700 disabled:text-black/30 motion-reduce:transition-none darks:text-neutral-200 darks:hover:text-neutral-300 darks:focus:text-neutral-300 lg:px-2 [&.active]:text-black/90 darks:[&.active]:text-neutral-400'
                   href='#'
                   data-te-nav-link-ref
                 >
@@ -88,13 +88,13 @@ const Nav = () => {
           <div className='relative flex items-center'>
             <div className='relative' data-te-dropdown-ref data-te-dropdown-alignment='end'>
               <ul
-                className='absolute z-[1000] float-left m-0 hidden min-w-max list-none overflow-hidden rounded-lg border-none bg-white bg-clip-padding text-left text-base shadow-lg dark:bg-neutral-700 [&[data-te-dropdown-show]]:block'
+                className='absolute z-[1000] float-left m-0 hidden min-w-max list-none overflow-hidden rounded-lg border-none bg-white bg-clip-padding text-left text-base shadow-lg darks:bg-neutral-700 [&[data-te-dropdown-show]]:block'
                 aria-labelledby='dropdownMenuButton1'
                 data-te-dropdown-menu-ref
               >
                 <li>
                   <a
-                    className='block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal text-neutral-700 hover:bg-neutral-100 active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:bg-white/30'
+                    className='block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal text-neutral-700 hover:bg-neutral-100 active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 darks:text-neutral-200 darks:hover:bg-white/30'
                     href='#'
                     data-te-dropdown-item-ref
                   >
@@ -103,7 +103,7 @@ const Nav = () => {
                 </li>
                 <li>
                   <a
-                    className='block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal text-neutral-700 hover:bg-neutral-100 active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:bg-white/30'
+                    className='block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal text-neutral-700 hover:bg-neutral-100 active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 darks:text-neutral-200 darks:hover:bg-white/30'
                     href='#'
                     data-te-dropdown-item-ref
                   >
@@ -112,7 +112,7 @@ const Nav = () => {
                 </li>
                 <li>
                   <a
-                    className='block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal text-neutral-700 hover:bg-neutral-100 active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:bg-white/30'
+                    className='block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal text-neutral-700 hover:bg-neutral-100 active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 darks:text-neutral-200 darks:hover:bg-white/30'
                     href='#'
                     data-te-dropdown-item-ref
                   >
@@ -142,13 +142,13 @@ const Nav = () => {
                 />
               </a>
               <ul
-                className='absolute z-[1000] float-left m-0 hidden min-w-max list-none overflow-hidden rounded-lg border-none bg-white bg-clip-padding text-left text-base shadow-lg dark:bg-neutral-700 [&[data-te-dropdown-show]]:block'
+                className='absolute z-[1000] float-left m-0 hidden min-w-max list-none overflow-hidden rounded-lg border-none bg-white bg-clip-padding text-left text-base shadow-lg darks:bg-neutral-700 [&[data-te-dropdown-show]]:block'
                 aria-labelledby='dropdownMenuButton2'
                 data-te-dropdown-menu-ref
               >
                 <li>
                   <a
-                    className='block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal text-neutral-700 hover:bg-neutral-100 active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:bg-white/30'
+                    className='block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal text-neutral-700 hover:bg-neutral-100 active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 darks:text-neutral-200 darks:hover:bg-white/30'
                     href='#'
                     data-te-dropdown-item-ref
                   >
@@ -157,7 +157,7 @@ const Nav = () => {
                 </li>
                 <li>
                   <a
-                    className='block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal text-neutral-700 hover:bg-neutral-100 active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:bg-white/30'
+                    className='block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal text-neutral-700 hover:bg-neutral-100 active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 darks:text-neutral-200 darks:hover:bg-white/30'
                     href='#'
                     data-te-dropdown-item-ref
                   >
@@ -166,7 +166,7 @@ const Nav = () => {
                 </li>
                 <li>
                   <a
-                    className='block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal text-neutral-700 hover:bg-neutral-100 active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:bg-white/30'
+                    className='block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal text-neutral-700 hover:bg-neutral-100 active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 darks:text-neutral-200 darks:hover:bg-white/30'
                     href='#'
                     data-te-dropdown-item-ref
                   >

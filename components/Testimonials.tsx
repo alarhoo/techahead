@@ -15,11 +15,11 @@ const Testimonials = () => {
                 height={25}
                 width={25}
                 alt='logo'
-                className='w-32 rounded-full shadow-lg dark:shadow-black/20'
+                className='w-32 rounded-full shadow-lg darks:shadow-black/20'
               />
             </div>
             <h5 className='mb-2 text-lg font-bold'>Maria Smantha</h5>
-            <h6 className='mb-4 font-medium text-primary dark:text-primary-400'>Emma S., High School Student</h6>
+            <h6 className='mb-4 font-medium text-primary darks:text-primary-400'>Emma S., High School Student</h6>
             <p className='mb-4'>
               I never thought learning could be so much fun! TechAhead has truly changed the game for me.
               <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 96 960 960' className='inline-block w-6'>
@@ -79,11 +79,11 @@ const Testimonials = () => {
                 height={25}
                 width={25}
                 alt='logo'
-                className='w-32 rounded-full shadow-lg dark:shadow-black/20'
+                className='w-32 rounded-full shadow-lg darks:shadow-black/20'
               />
             </div>
             <h5 className='mb-2 text-lg font-bold'>Lisa Cudrow</h5>
-            <h6 className='mb-4 font-medium text-primary dark:text-primary-400'>Graphic Designer</h6>
+            <h6 className='mb-4 font-medium text-primary darks:text-primary-400'>Graphic Designer</h6>
             <p className='mb-4'>
               Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid
               commodi.
@@ -144,11 +144,11 @@ const Testimonials = () => {
                 height={25}
                 width={25}
                 alt='logo'
-                className='w-32 rounded-full shadow-lg dark:shadow-black/20'
+                className='w-32 rounded-full shadow-lg darks:shadow-black/20'
               />
             </div>
             <h5 className='mb-2 text-lg font-bold'>John Smith</h5>
-            <h6 className='mb-4 font-medium text-primary dark:text-primary-400'>Marketing Specialist</h6>
+            <h6 className='mb-4 font-medium text-primary darks:text-primary-400'>Marketing Specialist</h6>
             <p className='mb-4'>
               At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti
               atque corrupti.
